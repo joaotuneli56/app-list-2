@@ -27,6 +27,8 @@ class ListaPage extends StatefulWidget {
 class _ListaPageState extends State<ListaPage> {
   int contador = 0;
 
+  
+
   List<Contato> contatos = [
     Contato('João Silva', 'joaosilva@email.com'),
     Contato('Ana Santos', 'ana.santos@email.com'),
